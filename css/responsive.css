@@ -1,0 +1,9 @@
+/* if the viewport is equal to 340px or less than that */ 
+@media only screen and (max-width: 425px){
+    
+    .site-main .site-banner .container, .about-area, .skills-area, .experiences-area, .languages, .interests-area, .contact-form{
+        padding: 1rem;
+        
+    }
+
+}

@@ -1,0 +1,216 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color:  #ffe8d3;
+}
+.title-text{
+    font-family: 'Paytone One', sans-serif;
+    text-align: center;
+}
+.text{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+.typewrite{
+    color: #313131;
+    font-weight: 500; 
+    pointer-events: none;
+    cursor: default; 
+}
+.typewrite:hover{
+    color: #313131;
+    font-weight: 500;  
+    text-decoration: none;
+    color: #313131;
+}
+code{
+    color: #f08080;
+}
+i{
+    color: #f08080; 
+}
+.text{
+    font-size: 18px;
+    line-height: 2.3rem;
+}
+
+/*link-button*/
+.link-button{
+    padding: .5rem 2.2rem;
+    font-family: var(--primary-font);
+    font-weight: bold;
+    background: #353535;
+    color: #EEEEE2;
+    transition: background .6s ease;
+    margin: 2rem 3rem;
+    border-radius: 20px;
+    position: relative;
+    font-size: 18px;
+}
+.link-button:hover{
+    background-color: #EEEEE2;
+    background-clip: padding-box;
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+    text-decoration: none;
+    color: black;
+}
+
+/*button*/
+.button{
+    padding: .5rem 2.2rem;
+    font-family: var(--primary-font);
+    font-weight: bold;
+    background: #353535;
+    color: #EEEEE2;
+    transition: background .6s ease;
+    margin: 1rem 0;
+    border-radius: 20px;
+    position: relative;
+}
+.button:hover{
+    background-color: #EEEEE2;
+    background-clip: padding-box;
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+}
+
+input[type=submit]{
+    padding: .5rem 2.2rem;
+    font-family: var(--primary-font);
+    font-weight: bold;
+    background: #353535;
+    color: #EEEEE2;
+    transition: background .6s ease;
+    margin: 1rem 0;
+    border-radius: 20px;
+    position: relative;
+}
+input[type=submit]:hover{
+    background-color: #EEEEE2;
+    background-clip: padding-box;
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+}
+
+
+/*scrollbar*/
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #ffe8d3; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #f08080; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #fbc4ab; 
+  }
+
+
+/*loader*/
+.loader_bg{
+    position: fixed;
+    z-index: 9999;
+    background: #ffe8d3;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-scrollbar: none i !important;
+    overflow-y: hidden !important;
+}
+
+.lds-roller {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;   
+  }
+  .lds-roller div {
+    animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    transform-origin: 40px 40px;
+  }
+  .lds-roller div:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--primary-color);
+    margin: -4px 0 0 -4px;
+  }
+  .lds-roller div:nth-child(1) {
+    animation-delay: -0.036s;
+  }
+  .lds-roller div:nth-child(1):after {
+    top: 63px;
+    left: 63px;
+  }
+  .lds-roller div:nth-child(2) {
+    animation-delay: -0.072s;
+  }
+  .lds-roller div:nth-child(2):after {
+    top: 68px;
+    left: 56px;
+  }
+  .lds-roller div:nth-child(3) {
+    animation-delay: -0.108s;
+  }
+  .lds-roller div:nth-child(3):after {
+    top: 71px;
+    left: 48px;
+  }
+  .lds-roller div:nth-child(4) {
+    animation-delay: -0.144s;
+  }
+  .lds-roller div:nth-child(4):after {
+    top: 72px;
+    left: 40px;
+  }
+  .lds-roller div:nth-child(5) {
+    animation-delay: -0.18s;
+  }
+  .lds-roller div:nth-child(5):after {
+    top: 71px;
+    left: 32px;
+  }
+  .lds-roller div:nth-child(6) {
+    animation-delay: -0.216s;
+  }
+  .lds-roller div:nth-child(6):after {
+    top: 68px;
+    left: 24px;
+  }
+  .lds-roller div:nth-child(7) {
+    animation-delay: -0.252s;
+  }
+  .lds-roller div:nth-child(7):after {
+    top: 63px;
+    left: 17px;
+  }
+  .lds-roller div:nth-child(8) {
+    animation-delay: -0.288s;
+  }
+  .lds-roller div:nth-child(8):after {
+    top: 56px;
+    left: 12px;
+  }
+  @keyframes lds-roller {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

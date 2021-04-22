@@ -1,0 +1,19 @@
+html,body{
+    margin: 0%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+/*CSS VARIABLES*/
+
+:root{
+    --primary-color:#f08080;
+    --secondary-color: #fbc4ab;
+
+
+    /*FONT FAMILY VARIALES*/
+    --primary-font: 'Josefin Sans', sans-serif;
+    --secondary-font: 'Paytone One', sans-serif;
+
+}
